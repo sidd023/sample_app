@@ -11,10 +11,18 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 #gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'faker', '1.7.3' 
+gem 'rails-ujs', '~> 0.1.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
+
+gem 'will_paginate', '3.1.7'
+gem 'bootstrap-will_paginate', '1.0.0'
+
+
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
@@ -61,9 +69,9 @@ group :test do
   gem 'chromedriver-helper'
 end
 
-group :production do 
+
   gem 'pg','0.20.0'
-end
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
