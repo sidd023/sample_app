@@ -10,7 +10,7 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 # Use postgresql as the database for Active Record
 #gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'faker', '1.7.3' 
 gem 'rails-ujs', '~> 0.1.0'
